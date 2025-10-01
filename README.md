@@ -43,9 +43,9 @@ You can download this modified MNIST data from this link
 
 ### Soft Attention
 
- This algorithm is from the paper [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044). I studied attention from [Heuritech blog](https://blog.heuritech.com/2025-10-01/attention-mechanism/). 
+ This algorithm is from the paper [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044). I studied attention from [Heuritech blog](https://blog.heuritech.com/2025-10-02/attention-mechanism/). 
 
-  The attention model for image captioning from paper is as follows. The image is from the [Heuritech blog](https://blog.heuritech.com/2025-10-01/attention-mechanism/). 
+  The attention model for image captioning from paper is as follows. The image is from the [Heuritech blog](https://blog.heuritech.com/2025-10-02/attention-mechanism/). 
 
 <img src="./Images/Attention_for_Image_Caption.png" width="400" alt="Combined Image" />
 
@@ -72,7 +72,7 @@ def LSTM_cell(C_prev, h_prev, x_lstm, Wf, Wi, Wc, Wo, bf, bi, bc, bo):
 
  [Colah's blog post](http://colah.github.io/posts/2015-08-Understanding-LSTMs/) is very good for understanding LSTM and I studied this post to implement LSTM. 
 
- Structure image of soft attention model is as follows. Image is from [Heuritech blog](https://blog.heuritech.com/2025-10-01/attention-mechanism/). 
+ Structure image of soft attention model is as follows. Image is from [Heuritech blog](https://blog.heuritech.com/2025-10-02/attention-mechanism/). 
 
 <img src="./Images/soft_attention.png" width="500" alt="Combined Image" />
 
@@ -104,7 +104,7 @@ Sample images of soft attention result are as follows.
 
 ### Hard Attention
 
- This algorithm is from the paper [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044). Hard Attention architecture image from [Heuritech blog](https://blog.heuritech.com/2025-10-01/attention-mechanism/) is as follows. 
+ This algorithm is from the paper [Show, Attend and Tell: Neural Image Caption Generation with Visual Attention](https://arxiv.org/abs/1502.03044). Hard Attention architecture image from [Heuritech blog](https://blog.heuritech.com/2025-10-02/attention-mechanism/) is as follows. 
 
 <img src="./Images/hard_attention.png" width="500" alt="Combined Image" />
 
